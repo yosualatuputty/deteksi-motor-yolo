@@ -74,9 +74,9 @@ if __name__ == "__main__":
     motor_model_path = "best.pt"
     object_model_path = "best.pt"
     
-    images_dir = "C:/Users/YOSUA N LATUPUTTY/deteksi-motor/images"
+    images_dir = "D:\\deteksi-motor-yolo\\images"
     cropped_dir = "C:/Users/YOSUA N LATUPUTTY/deteksi-motor/cropped_images"
-    results_dir = "C:/Users/YOSUA N LATUPUTTY/deteksi-motor/results"
+    results_dir = "D:\\deteksi-motor-yolo\\results"
     
     motor_model = load_model(motor_model_path)
     object_model = load_model(object_model_path)

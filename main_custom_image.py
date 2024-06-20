@@ -9,7 +9,7 @@ model = YOLO("deteksi-motor-n.pt")
 
 
 # Read the image
-image_path = "C:\\Users\\YOSUA N LATUPUTTY\\deteksi-motor\\images\\motor0223_png.rf.02c3c6e3227b86b20469a4f176aaa0c3.jpg"
+image_path = "D:\\deteksi-motor-yolo\\images\\motor0013_png.rf.c316e15437de72d4dd11b53ca8079991.jpg"
 
 
 
