@@ -120,12 +120,9 @@ def export_individual_motorcycles(image_path, model, output_dir):
 
 def main():
     # Initialize the YOLO model
-    model = YOLO("best.pt")
     model = YOLO("deteksi-motor-l.pt")
 
     # Path to the image
-    image_path = "C:\\Users\\YOSUA N LATUPUTTY\\deteksi-motor\\images\\motor0006_png.rf.e510c12cc4196baa59bc98ebfccda1a1.jpg"
-    output_dir = "C:\\Users\\YOSUA N LATUPUTTY\\deteksi-motor\\results"
     image_path = "C:\\Users\\YOSUA N LATUPUTTY\\deteksi-motor\\images\\motor0322_png.rf.66ed0519ca89110a494f16874faa78d6.jpg"
     output_dir = "C:\\Users\\YOSUA N LATUPUTTY\\deteksi-motor\\results\\" + datetime.now().strftime('result_%Y%m%d_%H%M%S')
 
